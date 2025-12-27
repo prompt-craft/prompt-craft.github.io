@@ -1,0 +1,68 @@
+# Secrets and credentials
+.env
+.env.*
+.envrc
+*.local
+*.secret
+*.secrets
+*.credentials
+*.token
+*.key
+*.pem
+*.p12
+*.pfx
+*.p7b
+*.p7c
+*.crt
+*.cer
+*.der
+*.jks
+*.keystore
+*.mobileprovision
+*.gpg
+*.asc
+
+# Common tooling files that may contain tokens
+.npmrc
+.yarnrc
+.yarnrc.yml
+.pypirc
+.netrc
+.git-credentials
+.docker/config.json
+
+# Cloud/provider credentials
+.aws/
+.azure/
+.gcloud/
+.kube/
+.ssh/
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+# Logs and caches
+*.log
+.cache/
+.sass-cache/
+.parcel-cache/
+.next/
+.nuxt/
+.output/
+
+# Build artifacts and dependencies
+dist/
+build/
+out/
+node_modules/
+vendor/
